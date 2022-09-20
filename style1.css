@@ -1,0 +1,156 @@
+:root{
+    --lred:#CD104D;
+    --orange:#FD841F;
+    --red:crimson;
+    --white:whitesmoke;
+    --green:green;
+}
+body,h2{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.landing{
+    background-image: url(image/logo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+header a{
+    text-decoration: none;
+    color:var(--orange);
+}
+header{
+    display: flex;
+}
+#logo{
+    flex: 0.9;
+    font-size: 2.25em;
+    padding: .2em;
+}
+nav{
+    flex: 1.5;
+    display: flex;
+    align-items: center;
+}
+nav a{
+    flex:1;
+    font-size: 1.25em;
+     
+
+
+}
+nav a:hover{
+    color: var(--green);
+}
+nav a:active{
+    color: var(--red);
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+    height: 50vh;
+    justify-content: center;
+    padding: 2em;
+}
+.tagline1{
+    color: var(--red);
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.tagline2{
+    color: var(--orange);
+     
+}
+.maintext div{
+    margin-top: .75em;
+}
+.maintext button{
+    width: 14vw;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding: .7em;
+    background-color: var(--orange);
+    color: var(--white);
+    
+}
+.menu{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,ifr));
+    background: linear-gradient(to right,rgb(100,100,100),rgb(53,52,52));
+    color: var(--white);
+}
+#menuheading,#locheading{
+    background: linear-gradient(to right,rgb(100,100,100),rgb(53,52,52));
+    font-size: 2.5em;
+    color: var(--red);
+    display: flex;
+    justify-content: center;
+}
+.menu th{
+    color: var(--green);
+    font-size: 1.8em;
+}
+table{
+    width: 100%;
+    padding: 1em;
+}
+.menu tr{
+    display: flex;
+    justify-content: center;
+    margin-top: .8em;
+}
+.locations{
+    background: linear-gradient(to right,rgb(100,100,100),rgb(53,52,52));
+    color: var(--white);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.locations h2{
+    color:var(--orange);
+    margin-bottom: .8em;
+}
+.locations div{
+    flex: 1;
+    padding: 1em;
+    min-width: 220px;
+}
+footer{
+    background:rgb(53,52,52) ;
+    color: var(--white);
+    padding: .25em 1em;
+    padding:  .25em 1em;
+
+}
+#login{
+    display: flex;
+    background: linear-gradient(to right,rgb(100,100,100),rgb(53,52,52));
+    font-size: 2.5em;
+    color: var(--red);
+    justify-content: center;
+    padding:  .25em 1em;
+
+}
+.login{
+    display: grid;
+    background: linear-gradient(to right,rgb(100,100,100),rgb(53,52,52));
+    color: var(--red);
+    justify-items: center;
+    padding: .25em 1em ;
+
+
+}
+.marquee{
+    color: var(--green);
+     
+}
+.btn{
+    color: var(--white);
+    background-color: teal;
+}
+
+ 
+ 
+ 
